@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assests/home1\ bg.jpg);
+    /* background-attachment:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    /* background-clip: padding-box; */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home1>article{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid yellow; */
+}
+#home1>article>header{
+    height: 10vh;
+    width: 100%;
+    /* border: 2px solid white; */
+    display: flex;
+}
+#home1>article>header>.netflix{
+    height: 100%;
+    width: 75%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+#home1>article>header>.netflix>svg{
+    height: 40px;
+    fill: red;
+}
+#home1>article>header>.signup{
+    height: 100%;
+    width: 25%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#home1>article>header>.signup>select{
+    height: 33px;
+    width: 130px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+#home1>article>header>.signup>select:focus{
+    border: 2px solid white;
+}
+#home1>article>header>.signup>button{
+    height: 33px;
+    width: 80px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+}
+#home1>article>header>.signup>button:hover{
+    cursor: pointer;
+}
+#home1>article>.main{
+    height: 40vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 30vh;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#home1>article>.main>.d1{
+    height: 28%;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    /* border: 2px solid white; */
+}
+#home1>article>.main>.d2{
+    height: 20%;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    /* border: 2px solid white;  */
+}
+#home1>article>.main>.d3{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(189, 181, 181);
+}
+#home1>article>.main>.d4>input{
+    height: 58px;
+    width: 375px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(119, 114, 114); 
+    
+}
+/* #home1>article>.main>.d4>input:active{
+    color: white;
+} */
+#home1>article>.main>.d4>button{
+    height: 58px;
+    width: 225px;
+    border-radius: 4px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+#home1>article>.main>.d4>button:hover{
+    cursor: pointer;
+}
+/* ================================================home1============================================================== */
+#home2{
+    height:82vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home2>.main{
+    height: 80%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+}
+#home2>.main>.d1{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+#home2>.main>.d1>h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+#home2>.main>.d1>p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+#home2>.main>.d2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}#home2>.main>div>video{
+    /* height: 90%; */
+    width: 74%;
+}
+#home2>.main>div>img{
+    height: 62%;
+    width: 39%;
+    background-size: contain;
+    position: absolute;
+}
+/* ----------------------------------------------------home3--------------------------------------------------- */
+#home3{
+    height:82vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home3>.main{
+    height: 80%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+}
+#home3>.main>.d1{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid white; */
+    display: flex;
+    /* align-items: end; */
+    justify-content: center;
+    /* background-image: url(./assests/mobile.jpg); */
+    /* background-size:cover ; */
+}
+#home3>.main>.d1>img{
+    height: 62%;
+    width: 39%;
+    background-size: contain;
+    position: absolute;  
+}
+#home3>.main>.d1>.dwnld{
+    height: 15%;
+    width: 21%;
+    margin-top: 300px;
+    background-color: black;
+    border: 2px solid rgb(99, 94, 94);
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home3>.main>.d1>.dwnld>.a1{
+    height: 80%;
+    width: 24%;
+    /* background-color: blueviolet; */
+    background-image: url(./assests/boxshot.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#home3>.main>.d1>.dwnld>.a2{
+    height: 80%;
+    width: 53%;
+    /* background-color: aqua; */
+    font-size: 13px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home3>.main>.d1>.dwnld>.a3{
+    height: 80%;
+    width: 16%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#home3>.main>.d2{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+#home3>.main>.d2>h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+#home3>.main>.d2>p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+/* ----------------------------------------------home 4------------------------------------------------- */
+#home4{
+    height:82vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home4>.main{
+    height: 80%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+}
+#home4>.main>.d1{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+#home4>.main>.d1>h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+#home4>.main>.d1>p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+#home4>.main>.d2{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}#home4>.main>div>video{
+    width: 60%;
+    margin-bottom: 135px;
+}
+#home4>.main>div>img{
+    height: 62%;
+    width: 39%;
+    background-size: contain;
+    position: absolute;
+}
+/* ------------------------------------------------home 5------------------------------------------ */
+#home5{
+    height:82vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home5>.main{
+    height: 80%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+}
+#home5>.main>.d1{
+    height: 100%;
+    width: 50%;
+    background-image: url(./assests/cartoon.png);
+    background-size: contain;
+}
+#home5>.main>.d2{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+#home5>.main>.d2>h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+#home5>.main>.d2>p{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+/* -------------------------------------------------home 6------------------------------------------------- */
+#home6{
+    height:130vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 8px solid rgb(51, 49, 49);
+}
+#home6>.main{
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid white; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#home6>.main>.title{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid green; */
+    /* text-align: center; */
+    font-size: 45px;
+    font-weight: 900;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#home6>.main>.sub{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#home6>.main>.sub>.dbox{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home6>.main>.sub>.dbox:hover{
+    cursor: pointer;
+    background-color:rgb(69, 65, 65) ;
+}
+#home6>.main>.sub>.dbox>div{
+    height: 60%;
+    width: 95%;
+    color: white;
+    font-size: 19px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home6>.main>.bottom{
+    height: 30vh;
+    width: 100%;
+    /* border: 2px solid violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home6>.main>.bottom>.d1{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#home6>.main>.bottom>.d2{
+    height: 60px;
+    width: 100%;
+}
+#home6>.main>.bottom>.d2>input{
+    height: 100%;
+    width: 79%;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(119, 114, 114); 
+}
+#home6>.main>.bottom>.d2>button{
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+#home6>.main>.bottom>.d2>button:hover{
+    cursor: pointer;
+}
+/* -----------------------------------------------end------------------------------------------------------ */
+#end{
+    height:65vh ;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 8px solid rgb(51, 49, 49); */
+}
+#end>.main{
+    height: 90%;
+    width: 80%;
+    /* border: 2px solid white; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#end>.main>div{
+    height: 15%;
+    width: 100%;
+    /* border: 2px solid white; */
+    color: rgb(207, 200, 200);
+}
+#end>.main>div>a{
+    color: rgb(203, 197, 197);
+}
+#end>.main>.split{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#end>.main>.split>div{
+    height: 100%;
+    width: 25%;
+}
+#end>.main>.split>div>ol{
+    list-style: none;
+    line-height: 40px;
+}
+#end>.main>.split>div>ol>li>a{
+color: white;
+
+}
+#end>.main>div>select{
+    height: 33px;
+    width: 130px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+}
+#end>.main>div>select:focus{
+    border: 2px solid white;
+}
